@@ -5,8 +5,8 @@ load BCSDBTfilepathstrain.mat
 load BCSDBTlabelstrain.mat
 load BCSDBTboxestrain.mat
 
-sdrive = 'J:\DBT_challenge\'; % Image Source. 
-ddrive = 'J:\DBT_challenge_Proc\'; % Image Destination. 
+sdrive = '\DBT_challenge\'; % Image Source. 
+ddrive = '\DBT_challenge\Train_Proc'; % Image Destination. 
                               
 % enable access to Python
 % pe = pyenv;

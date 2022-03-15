@@ -12,7 +12,7 @@
 - YOLOv5 deteciton method, https://github.com/ultralytics/yolov5, was used for preliminary lesion inferencing on DBT image slice in Pytorch framework
 
 ## Read DBT DICOM image
-Use the "dcmread_image" functions from "duke-dbt-data",
+Use the "dcmread_image" functions from "duke-dbt-data.py",
 https://github.com/MaciejMazurowski/duke-dbt-data
 
 ## Preprocessing

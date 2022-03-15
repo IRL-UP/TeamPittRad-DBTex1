@@ -28,7 +28,7 @@ for i = 1:length(BCSDBTfilepathsvalidation.PatientID)
         img = permute(img,[2 3 1]); % python order, z-x-y. Change it to Matlab order, x-y-z
     end
     
-    %% Create directory 
+    % % Create directory 
     img_path = fullfile(ddrive,'processed_img2','images',PID,UID,view);
     label_path = fullfile(ddrive,'processed_img2','labels',PID,UID,view);
     if ~isfolder(img_path)
@@ -39,7 +39,7 @@ for i = 1:length(BCSDBTfilepathsvalidation.PatientID)
 %     end
     
 
-    %% Export
+    % % Export
     mid_slice = round(size(img,3)/2);
     max_slice = size(img,3);
     rng_slice = 70; % percent to cover

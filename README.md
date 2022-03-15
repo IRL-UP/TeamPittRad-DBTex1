@@ -3,7 +3,7 @@
 - The algorihtms were developed using MATLAB (ver 2021) and Pytorch framework during the DBTex (phase 1) Grand challenge participation by Team-PittRad (University of Pittsburgh).
 
 
-## DBTex biopsied lesion detection challenge
+## DBTex Grand Challenge
 - Challenge Website, https://spie-aapm-nci-dair.westus2.cloudapp.azure.com/competitions/4
 
 ## Read DBT DICOM image

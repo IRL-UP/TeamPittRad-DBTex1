@@ -1,12 +1,12 @@
 close all; clear;
-%% Load data
-src = 'D:\DBT_challenge';
-label_loc = 'D:\DBT_challenge\results\labels'; % labels of baselineFPs
-dst = 'D:\DBT_challenge\Img_FPs'; % destination image dir
+% % Load data
+src = '..\DBT_challenge\Train_Proc';
+label_loc = '..\DBT_challenge\results\labels'; % labels of baselineFPs
+dst = '..\DBT_challenge\Img_FPs'; % destination image dir
 load BCSDBTlabelstrain.mat
 lnames = dir([label_loc,'*.txt']);
 
-%% Storing image-label pair
+% % Storing image-label pair
 for i = 1:length(lnames)
     disp(lnames(i).name);
     indx = strfind(lnames(i).name,'_');

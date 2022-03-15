@@ -40,7 +40,7 @@ for i = 1:length(BCSDBTfilepathstrain.PatientID)
         img = permute(img,[2 3 1]); % python order, z-x-y. Change it to Matlab order, x-y-z
     end
     
-    %% Create directory 
+    %% Create directory
     img_path = fullfile(ddrive,'processed_img2','images',label,PID,view);
     label_path = fullfile(ddrive,'processed_img2','labels',label,PID,view);
     if ~isfolder(img_path)
@@ -50,7 +50,7 @@ for i = 1:length(BCSDBTfilepathstrain.PatientID)
         mkdir(label_path);
     end
     
-    %% create YOLO label file 
+    %% create YOLO label file
     [sy, sx] = size(img(:,:,1));
     pindx = strcmp(BCSDBTboxestrain.PatientID,PID);
     vindx = strcmp(BCSDBTboxestrain.View,view);

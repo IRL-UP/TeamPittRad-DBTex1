@@ -2,8 +2,8 @@ clear; close all;
 
 % Load DBTex validation/test dataset
 load BCSDBTfilepathsvalidation.mat
-sdrive = 'J:\DBT_challenge\Validation\'; % Image Source
-ddrive = 'J:\DBT_challenge\Validation_Proc\'; % Image Destination 
+sdrive = '\DBT_challenge\Validation'; % Image Source
+ddrive = '\DBT_challenge\Validation_Proc'; % Image Destination
                               
 % enable access to Python
 % pe = pyenv;

@@ -31,8 +31,7 @@ https://github.com/MaciejMazurowski/duke-dbt-data
 
 ## Prerequisite
 ### Read DBT DICOM image
-Use the "dcmread_image" functions from "duke-dbt-data.py",
-https://github.com/MaciejMazurowski/duke-dbt-data
+- Use the "dcmread_image" functions from "duke-dbt-data.py", https://github.com/MaciejMazurowski/duke-dbt-data
 
 
 ## Additional Functions

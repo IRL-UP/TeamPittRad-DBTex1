@@ -1,6 +1,6 @@
 # Biopsied lesion detection using non-biopsied (actionable) false postive findings (actFPs)
 - Biopseid lesion detection framework on DBT image using non-biopsied (actionable) false postives findings (actFPs). 
-- The algorihtms were developed using MATLAB (ver 2021) and Pytorch framework from the DBTex Grand challenge participation by Team-PittRad (University of Pittsburgh).
+- The algorihtms were developed using MATLAB (ver 2021) and Pytorch framework during the DBTex (phase 1) Grand challenge participation by Team-PittRad (University of Pittsburgh).
 
 ## DBTex biopsied lesion detection challenge
 - Challenge Website, https://spie-aapm-nci-dair.westus2.cloudapp.azure.com/competitions/4

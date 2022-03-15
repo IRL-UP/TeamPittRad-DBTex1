@@ -28,4 +28,4 @@ https://github.com/MaciejMazurowski/duke-dbt-data
 
 ## Additional Functions
 - Use from "duke-dbt-data", https://github.com/MaciejMazurowski/duke-dbt-data
-- YOLOv5 repositoryu in Pytorch, https://github.com/ultralytics/yolov5
+- YOLOv5 repository in Pytorch, https://github.com/ultralytics/yolov5

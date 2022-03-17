@@ -7,7 +7,6 @@
 ## DBTex Grand Challenge
 - Challenge Website, https://spie-aapm-nci-dair.westus2.cloudapp.azure.com/competitions/4
 
-
 ## Preprocessing
 - dcm2png_train.m: Pre-processing DBTex Train Set to extract 2D slices and synthesize 2.5D images for augmented image set for training the model
 - dcm2png_val.m: Pre-processing DBTex Validation/Test Set
@@ -16,16 +15,14 @@
 ## Model training
 - The lesion detection models used MS COCO-pretrained YOLOv5 as detector model, https://github.com/ultralytics/yolov5 in Pytorch framework
 
-
-## Baseline FPs Findings 
-- Updating_BaselineFPs_label.m: Creating image-label pairs for baseline FPs findings
-
-
 ## Lesion inferencing
 - YOLOv5 deteciton method, https://github.com/ultralytics/yolov5, was used for preliminary lesion inferencing on DBT image slice in Pytorch framework
 
+## Baseline FPs Findings 
+- Updating_BaselineFPs_label.m: Creating augmented training images (e.g., image-label pairs) using non-biopsied (actionable) FPs findings.
+
 ## Post Processing
-- consolidate_inferences_single.m: Inferecning for DBTex submission format from a single model 
+- consolidate_inferences_single.m: Inferencing from a single model for DBTex submission format 
 - consolidate_inferences_ensemble.m: Inferencing using Ensemble approach for DBTex submission
 
 ## Pre-Requisite

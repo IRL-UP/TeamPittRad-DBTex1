@@ -9,7 +9,7 @@
 
 
 ## Preprocessing
-- dcm2png_train.m: Pre-processing DBTex Train Set to create 2D slices for constructing our traning set
+- dcm2png_train.m: Pre-processing DBTex Train Set to create 2D slices and augmented images set (2.5D images) for constructing our traning set
 - dcm2png_val.m: Pre-processing DBTex Validation/Test Set
 
 
